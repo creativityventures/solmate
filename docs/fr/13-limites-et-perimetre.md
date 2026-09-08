@@ -1,0 +1,7 @@
+# Chapitre 13 — Limites connues et perimetre de ce parcours
+
+Solmate est publie sous licence **AGPL-3.0-only**, une licence copyleft plus stricte que le MIT de la plupart des autres bibliotheques de composants (dont OpenZeppelin) : toute modification distribuee, y compris via un service reseau, doit rester sous la meme licence et son code source rendu disponible. Le depot precise egalement, dans son historique, une "soft deprecation notice" : il reste largement utilise et fonctionnel, mais son developpement actif a ralenti au profit d'autres bibliotheques du meme auteur.
+
+Ce parcours ne couvre pas en detail `ERC1155.sol`, `ERC6909.sol` (deux standards de jetons multi-actifs), `WETH.sol` (enveloppe d'ether natif), `RolesAuthority.sol`/`MultiRolesAuthority.sol` (implementations concretes d'`Authority`), `Bytes32AddressLib.sol`, `SafeCastLib.sol`, `LibString.sol` ni `MerkleProofLib.sol`. Le dossier `src/test/` (suite de tests Foundry, y compris des mocks de "jetons bizarres" qui simulent des comportements ERC20 non conformes pour les tests de `SafeTransferLib`) n'est pas non plus detaille.
+
+Rien n'a ete installe, compile, deploye ni execute pour ecrire ces chapitres. Aucun test n'a ete lance ; ces chapitres decrivent ce que le code Solidity dit faire, en renvoyant aux fichiers cites. Le depot fournit sa propre suite de tests Foundry (dossier `src/test/`) pour verification independante.
