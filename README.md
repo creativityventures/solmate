@@ -1,3 +1,7 @@
+## Parcours francais
+
+Ce depot contient un parcours pedagogique en francais dans docs/fr/ : lecture commentee de la bibliotheque de briques Solidity Solmate, un mecanisme par chapitre, sans aucune installation ni execution du projet.
+
 # solmate
 
 **Modern**, **opinionated**, and **gas optimized** building blocks for **smart contract development**.
